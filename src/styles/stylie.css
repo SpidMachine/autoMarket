@@ -1,0 +1,92 @@
+.maine {
+    background: #efefef; /* Цвет фона */
+    box-shadow: 0 0 3px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 1px 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.maine {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.hui {
+    display: flex;
+}
+
+#price {
+    align-items: flex-start;
+    display: flex;
+}
+
+#priceRub {
+    padding: 5px;
+    color: white;
+    background-color: #e34065;
+}
+
+#imgZak {
+    color: white;
+    border: 1px solid #1C222F;
+    width: 2.3%;
+}
+
+#img {
+    justify-content: center;
+    width: 733px;
+    height: 419px;
+}
+
+#priceDol {
+    margin-top: 50px;
+    margin-left: 10px;
+    opacity: 70%;
+}
+
+#huii {
+    flex-direction: column;
+}
+
+#nameOf {
+    display: flex;
+}
+
+#aImg {
+    display: inline-block;
+}
+
+#zakladka {
+    margin-top: 5px;
+}
+
+#aImg:hover {
+    background: url("../files/zak1.png") no-repeat 50% 50%;
+}
+
+.descriptionsCar {
+    flex-direction: column;
+    opacity: 50%;
+}
