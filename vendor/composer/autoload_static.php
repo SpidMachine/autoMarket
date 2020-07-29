@@ -7,16 +7,45 @@ namespace Composer\Autoload;
 class ComposerStaticInite46ae50b60f63c8e413d51d55f5852ee
 {
     public static $prefixLengthsPsr4 = array (
-        'A' => 
+        'V' => 
         array (
-            'App\\' => 4,
+            'View\\' => 5,
+        ),
+        'T' => 
+        array (
+            'TexLab\\MyDB\\' => 12,
+        ),
+        'M' => 
+        array (
+            'Model\\' => 6,
+        ),
+        'C' => 
+        array (
+            'Core\\' => 5,
+            'Controller\\' => 11,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'App\\' => 
+        'View\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/src/View',
+        ),
+        'TexLab\\MyDB\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/texlab/mydb/src',
+        ),
+        'Model\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Model',
+        ),
+        'Core\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Core',
+        ),
+        'Controller\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Controller',
         ),
     );
 
