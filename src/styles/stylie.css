@@ -1,6 +1,8 @@
 .maine {
-    background: #efefef; /* Цвет фона */
-    box-shadow: 0 0 3px rgba(0,0,0,0.5); /* Параметры тени */
+    background: #efefef;
+    /* Цвет фона */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    /* Параметры тени */
     padding: 10px;
 }
 
@@ -87,6 +89,6 @@
 }
 
 .descriptionsCar {
-    flex-direction: column;
+    display: flex;
     opacity: 50%;
 }

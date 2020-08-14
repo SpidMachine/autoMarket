@@ -18,7 +18,7 @@ include '../vendor/autoload.php'
 
 <body style="background: #dbdbdb">
 
-<?= include "../src/model/header.php" ?>
+<?= include "../src/inc/header.php" ?>
 
 <div class="main">
     <div class="media position-relative">
